@@ -1,0 +1,32 @@
+  327  git init
+  328  git add .
+  329  git status
+  330  git commit -m "first commit"
+  331  git branch -M main
+  332  git remote add origin https://github.com/victoria-ancalaf/16-08-VictoriaAncalaf.git
+  333  git push -u origin main
+  334  touch main.js index.html
+  335  git add .
+  336  git commit -m "second commit"
+  337  git push origin main
+  338  git checkout -b feature
+  339  mkdir Hardware Software SeguridadInformatica
+  340  ls
+  341  cd Hardware/
+  342  resumen.txt
+  343  touch resumen.txt
+  344  cd ..
+  345  cd SeguridadInformatica/
+  346  touch resumen.txt
+  347  cd ..
+  348  cd Software/
+  349  touch resumen.txt
+  350  cd ..
+  351  git add .
+  352  git commit -m "rama feature"
+  353  git push origin feature
+  354  git checkout main
+  355  mv main.js resumenHardware.txt
+  356  mv index.html resumenSoftware.txt
+  357  touch comandos.txt
+  358  history
